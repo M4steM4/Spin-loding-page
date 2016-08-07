@@ -1,8 +1,9 @@
+body{
+  background-color: white;
+}
 .spinner{
   box-sizing: border-box;
   position: relative;
-  top: 25%;
-  left: 25%;
 }
 .circle1{
   width:300px;
@@ -12,13 +13,13 @@
   border: 50px solid;
   border-radius: 50%;
   border-color: #555555 #222222 #222222 #222222;
-  -webkit-animation: spin 1600ms infinite linear;
-  -moz-animation: spin 1600ms infinite linear;
-  -ms-animation: spin 1600ms infinite linear;
-  -o-animation: spin 1600ms infinite linear;
-  animation: spin 1600ms infinite linear;
+  box-shadow: 5px 5px 5px red;
+  -webkit-animation: spin 1700ms infinite linear;
+  -moz-animation: spin 1700ms infinite linear;
+  -ms-animation: spin 1700ms infinite linear;
+  -o-animation: spin 1700ms infinite linear;
+  animation: spin 1700ms infinite linear;
 }
-
 .circle2{
   width:200px;
   height: 200px;
@@ -26,14 +27,14 @@
   margin: 50px;
   border: 50px solid;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px yellow;
   border-color: #777777 #AAAAAA #777777 #777777;
-  -webkit-animation: spin 1200ms infinite reverse linear;
-  -moz-animation: spin 1200ms infinite reverse linear;
-  -ms-animation: spin 1200ms infinite reverse linear;
-  -o-animation: spin 1200ms infinite reverse linear;
-  animation: spin 1200ms infinite reverse linear;
+  -webkit-animation: spin 1300ms infinite reverse linear;
+  -moz-animation: spin 1300ms infinite reverse linear;
+  -ms-animation: spin 1300ms infinite reverse linear;
+  -o-animation: spin 1300ms infinite reverse linear;
+  animation: spin 1300ms infinite reverse linear;
 }
-
 .circle3{
   width:100px;
   height: 100px;
@@ -41,14 +42,14 @@
   margin: 100px;
   border: 50px solid;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px green;
   border-color: #CCCCCC #CCCCCC #EEEEEE #CCCCCC;
-  -webkit-animation: spin 800ms infinite linear;
-  -moz-animation: spin 800ms infinite linear;
-  -ms-animation: spin 800ms infinite linear;
-  -o-animation: spin 800ms infinite linear;
-  animation: spin 800ms infinite linear;
+  -webkit-animation: spin 900ms infinite linear;
+  -moz-animation: spin 900ms infinite linear;
+  -ms-animation: spin 900ms infinite linear;
+  -o-animation: spin 900ms infinite linear;
+  animation: spin 900ms infinite linear;
 }
-
 .percent{
   padding-top: 20px;
   position: absolute;
